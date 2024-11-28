@@ -114,6 +114,7 @@ export const BaseTag = forwardRef<HTMLSpanElement, BaseTagProps>(
           variant && variants[variant],
           color && colors[color],
           shadow && shadows[shadow],
+          props.className,
         )}
         {...attrs}
         ref={ref}
